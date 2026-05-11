@@ -232,7 +232,7 @@
 <script>
   document.addEventListener('click', function(e){
     var a = e.target.closest('a');
-    if(a && a.href && (a.href.indexOf('wa.me') !== -1 || /politica-privacidade\.html|termos-de-uso\.html/.test(a.href))) return;
+    if(a && a.href && (a.href.indexOf('wa.me') !== -1 || /politica-privacidade.html|termos-de-uso.html/.test(a.href))) return;
     e.preventDefault();
     window.open('https://wa.me/5598984182490?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20a%20Gtex%20Fibra%20Óptica','_blank');
   });
